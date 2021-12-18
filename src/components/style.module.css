@@ -1,0 +1,108 @@
+.main {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+/* form styling */
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.firstname {
+    width: 47%;
+    padding: 5px;
+    background-color: #F5F6F7;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.form {
+    padding: 10px;
+}
+
+.nameTwo {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.mobile {
+    padding: 5px;
+    background-color: #F5F6F7;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.dropdown {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.selection {
+    /* background-color: blue; */
+    width: 30%;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/* gender styling */
+.female {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid grey
+}
+
+/* footer styling */
+.footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.signUp {
+    background-color: green;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        width: 30%;
+        margin: auto;
+        box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.75);
+    }
+}
